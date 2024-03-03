@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> tamanhos de fontes em css </title>
+
+   
+
+<style> 
+
+/* essa declaração pode ser retirada do site "google fontes" na parte de "select regular" deve ser selecionado,  depois copia o @import e colocando na "fonte family" desejada o nome especifico da fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dancing+Script:wght@400;500;600;700&family=Rubik+Doodle+Shadow&family=Rubik+Doodle+Triangles&family=Rubik+Glitch&display=swap');
+body { 
+
+font-family: "work sans", Arial, Helvetica, sans-serif;
+/* 
+*medidas absolutas:
+cm, wm, in, px(indicação da w3m),pt,pc
+
+*medidas relativas:
+
+em (indicação da w3m), ex, rem vw, vh, %
+
+16 px = 1em (geralmente)
+
+
+    */
+font-size: 1em;
+
+ /* lighter normal bold bolder */
+}
+
+
+
+h1 { 
+/*
+   font-family:"work sans", Arial, Helvetica, sans-serif; 
+   font-weight: bolder;
+   font-size:3em ;
+   font-style:italic;
+    shorthand font ( é um maneira de simplificar a indicação das fontes), veja abaixo a ordem:
+(1) font - style -> (2) font - weight -> (3) font - size -> (4)font family 
+exemplo abaixo:
+*/
+font:italic bolder 3em "work sans", Arial, Helvetica, sans-serif ;
+text-align: justify;
+}
+
+h2 { 
+
+    font-family:'Bungee Spice';
+    text-align: justify;
+
+}
+
+p {
+    font-style: italic;
+    text-align: justify;
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<h1> Trabalhando com Fontes</h1>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sint deserunt itaque magni, explicabo esse et accusamus excepturi, quas ab amet quidem nemo id voluptatum eveniet quibusdam error reprehenderit? Cupiditate!</p>
+
+<h2> subtitulo</h2>
+
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptatibus ipsam culpa eius animi sed debitis officia suscipit vero porro? Veritatis atque excepturi enim facilis eligendi autem esse repellendus incidunt.</p>
+
+</body>
+
+
+
+</html>

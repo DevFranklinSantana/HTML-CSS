@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* 
+ATENÇÃO:
+em HTML é id = em CSS é # (só pode um elemento)
+em HTML é class = em CSS é. (pode vários elementos)
+*/
+
+
+body { 
+
+background-color: blue;
+color: aliceblue;
+text-align: justify;
+font: normal 15px arial,verdana,sans-serif;
+
+}
+
+h1{
+ 
+    text-align: center;
+
+}
+
+h1#principal{ /* este tipo de código serve para diferenciar dos outros h1, personalizando especificamente um determinado texto.*/
+
+    background-color: antiquewhite;
+    color: blueviolet;
+}
+
+h2{ 
+
+font-family: cursive;
+
+
+}
+
+p{
+
+    text-indent: 30px;
+
+}
+
+.basico { /* este tipo de seletor diferentemente do principal, pode selecionar varias */
+
+   color: cyan;
+
+}
+
+.intermediario{
+
+    color: burlywood;
+}
+
+.avancado { 
+
+    color: chartreuse;
+
+
+}

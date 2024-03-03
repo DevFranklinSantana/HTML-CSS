@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> grouping tags </title>
+
+    <style>
+
+        body{ 
+            font-family: Arial, Helvetica, sans-serif;
+        background-color: antiquewhite;
+        margin:10px; /*serve para alinhar a margem do site (caixa). */
+        text-align: justify;
+    }
+
+     h1 {
+       text-align: center;
+       background-color: rgb(252, 245, 245);
+       box-shadow: inset 3px 4px 5px 0px black; /* neste recurso, se coloca sombra interna na caixa.*/
+       padding: 10px;
+            }
+
+ header { 
+   
+    background-color: rgb(255, 255, 255);
+    padding: 10px; /* bordar interna da caixa */
+    margin: 0px;
+
+}
+
+nav { 
+    
+    color: black;
+    background-color: cornflowerblue;
+    padding: 5px;
+    font-weight: bold; /* colocar em negrito */
+    box-shadow:3px 4px 5px 0px black;   /* neste recurso se coloca sombra externa na caixa*/  
+}  
+
+nav > a { 
+
+    text-decoration: none;
+    color: rgb(94, 4, 179);
+  font-weight: bold;
+}
+
+nav > a:hover{
+text-decoration: underline; /*sublinhar a seleção do link*/
+    
+}
+
+footer{ 
+ color: aliceblue;
+    background-color: black;
+text-align: center;
+padding: 5px;
+}
+
+footer > p {
+   
+    margin: 0px;  /* serve para retirar a desproporcionalidade da caixa na confuguração de padding*/ 
+
+}
+
+
+
+    </style>
+    
+
+</head>
+
+<body>
+<header> 
+<h1> Meu site </h1>
+<nav>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+</nav>
+
+</header>
+
+<main> 
+
+<section id="assuntos">
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, assumenda ullam eaque non dicta alias vero. Ullam pariatur voluptas, quae tempore nesciunt fugiat dolores quis laborum quo, ipsa at optio?</p>
+
+</section>
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias sint fugit vel cupiditate voluptas eaque accusantium necessitatibus, aspernatur voluptates architecto molestias velit sapiente similique, autem delectus laborum, ullam nostrum incidunt.</p>
+<section id="noticias"> 
+<article> 
+<h2> Noticias sobre o brasil</h2>
+<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptas deserunt magni magnam similique, eum sit natus accusamus illo accusantium nam molestias perferendis libero repellendus quisquam iusto modi quam. Et!</p>
+
+<aside>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae esse assumenda animi incidunt excepturi pariatur magni. Corporis laudantium assumenda nobis, fugit temporibus accusantium molestiae aut? Error minus perferendis culpa itaque?</p>
+</aside>
+
+</article>
+
+
+
+
+</section>
+
+
+</main>
+
+<footer> 
+    <p> desenvolvido por Franklin Santana</p>
+
+
+</footer>
+
+</body>
+
+
+</html>

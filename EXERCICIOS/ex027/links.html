@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> links </title>
+
+    <style>
+
+        /* SELETORES PERSONALIZADOS
+
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = children
+
+        */
+
+body { 
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+}
+
+a{
+
+    color: rgb(21, 11, 211);
+    text-decoration: none;
+    font-weight: bold; /* em negrito*/
+}
+
+a:visited{  /* marcar como site visitado */
+
+    color: rgb(202, 13, 13);
+}
+
+a:hover{
+color: black; 
+text-decoration: underline; /* selecionador sublinhado.*/
+background-color: rgb(248, 128, 128); /*selecionador com marca texto. */
+
+
+
+}
+
+a:active { /* na hora do click ele "acende" a cor escolhida */
+
+    color: gold;
+}
+
+a::after{
+
+    content: '[link]'; /* aparece o nome link no texto*/
+}
+    </style>
+    
+
+</head>
+
+<body>
+
+    <h1> Personalizando Links </h1>
+    <ul>
+  <li><a href="https://www.globo.com/" target="_blank"> Globo.com </a></li>
+  <li><a href="https://www.google.com.br" target="_blank"> Google.com </a></li>
+
+    </ul>
+
+</body>
+
+
+</html>
